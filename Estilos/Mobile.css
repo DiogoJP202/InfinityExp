@@ -12,10 +12,25 @@ body {
   margin:0;
   padding:0;
 }
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+#menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#logo{
+  display: flex;
+  align-items: center;
+}
+#links{
+  padding: 10px;
+  margin-top: 2px;
+  background-color: rgb(197, 197, 197);
+}
+.material-symbols-sharp{
+  cursor: pointer;
+}
+#InfinityExp{
+  width: 60px;
 }
 
 ul {
@@ -77,4 +92,14 @@ ul li:nth-child(3) a:hover .fa {
 
 ul li:nth-child(4) a:hover .fa {
   color: #E544AC;
+}
+
+.remover{
+  display: none;
+}
+
+.adicionar{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
